@@ -6,6 +6,7 @@ namespace DataLayer
     {
         public StudentsRepository Students { get; }
         public ClassRepository Classes { get; }
+        public UsersRepository Users { get; }
 
         private readonly AppDbContext _dbContext;
 
